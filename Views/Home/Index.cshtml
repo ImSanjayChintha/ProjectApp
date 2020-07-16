@@ -7,41 +7,62 @@
     <div class="tab-pane fade show active" id="admin" role="tabpanel" aria-labelledby="admin-tab">
         <br />
 
-
         <fieldset class="border">
-            <legend class='text-left'>Step 1: Choose Frequency and Period Trust Source</legend>
+            <legend class='text-left' id="legend1">Step 1: Choose Frequency and Period Trust Source</legend>
             <div class="row">
-                <p id="admin-content">
-                    <div class="col-xs-2">
-                        <label>Choose a frequency</label>
-                    </div>
-                    <div class="col-xs-10 form-radio-buttons">
+                <div id="admin-content">
+                    <div>
                         <div class="form-check-inline">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="optradio">Monthly
+                                <label>Choose a frequency: </label>
                             </label>
                         </div>
                         <div class="form-check-inline">
+                            <div class="form-radio-buttons">
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio" checked>Monthly
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio">Quaterly
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio">Yearly
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-check-inline">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="optradio">Quaterly
+                                Choose a Period:
                             </label>
                         </div>
-                        <div class="form-check-inline disabled">
-                            <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="optradio">Yearly
-                            </label>
+                        <div class="form-check-inline">
+                                <select class="form-control" id="sel1">
+                                    <option>January 2020</option>
+                                    <option>Feb 2020</option>
+                                    <option>March 2020</option>
+                                    <option>April 2020</option>
+                                </select>
                         </div>
                     </div>
 
-
-
-                </p>
+                </div>
             </div>
-
+            <br />
         </fieldset>
-
-
-
+        <fieldset class="border">
+            <legend class='text-left' id="legend2">Step 2: Upload FHFA File</legend>
+            <div id="admin-content-2">
+               Datatable will be here....
+            </div>
+            <br />
+        </fieldset>
     </div>
 
 </div>

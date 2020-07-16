@@ -85,15 +85,24 @@ fieldset {
 
 #admin-content {
     padding-left: 42px;
-    
+}
+#admin-content-2 {
+    padding-left: 25px;
 }
 
-legend {
+#legend1 {
     width: 350px;
     padding: 10px 20px;
     font-size: 13px;
     margin-left: 8px;
 }
+#legend2 {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
 .nav{
     padding-top:10px;
 }
