@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/ProjectApp/v16/Server/sqlite3
+/.vs/ProjectApp/config
+/bin/Debug/netcoreapp3.1
+/obj
+bower_components/*

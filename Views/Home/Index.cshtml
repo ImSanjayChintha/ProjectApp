@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">Dashboard</div>
+    <div class="tab-pane fade show active" id="admin" role="tabpanel" aria-labelledby="admin-tab">
+        <br />
+
+
+        <fieldset class="border">
+            <legend class='text-left'>Step 1: Choose Frequency and Period Trust Source</legend>
+            <div class="row">
+                <p id="admin-content">
+                    <div class="col-xs-2">
+                        <label>Choose a frequency</label>
+                    </div>
+                    <div class="col-xs-10 form-radio-buttons">
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Monthly
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Quaterly
+                            </label>
+                        </div>
+                        <div class="form-check-inline disabled">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio">Yearly
+                            </label>
+                        </div>
+                    </div>
+
+
+
+                </p>
+            </div>
+
+        </fieldset>
+
+
+
+    </div>
+
+</div>
